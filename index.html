@@ -24,7 +24,7 @@
 <script type="module">
 import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm';
 // Баптау: Supabase жобасының URL және anon key мәндерін төмендегі жолдарға енгізіңіз.
-const SUPABASE_URL='https://ogcbnesctnyoypbtvvoy.supabase.co/rest/v1/';
+const SUPABASE_URL='https://ogcbnesctnyoypbtvvoy.supabase.co';
 const SUPABASE_ANON_KEY='sb_publishable_LuEqbEriRMyqMwr44SdUxg_KCWgqO-e';
 const configured=SUPABASE_URL.startsWith('https://')&&SUPABASE_ANON_KEY!=='YOUR_SUPABASE_ANON_KEY';
 const sb=configured?createClient(SUPABASE_URL,SUPABASE_ANON_KEY):null;
